@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-child">
+        <div class="names">
+          <p id="calc">calc</p>
+          <div class="theme">
+            <p id="p-theme">THEME</p>
+            <div class="labels">
+              <label>1</label>
+              <label>2</label>
+              <label>3</label>
+            </div>
+            <div class="theme-btns">
+              <input type="radio" name="theme" id="first" checked />
+              <input type="radio" name="theme" id="second" />
+              <input type="radio" name="theme" id="third" />
+            </div>
+          </div>
+        </div>
+        <input type="text" id="myInput" readonly />
+        <div class="buttons">
+          <button class="btn text-display">7</button>
+          <button class="btn text-display">8</button>
+          <button class="btn text-display">9</button>
+          <button class="btn del unique">DEL</button>
+          <button class="btn text-display">4</button>
+          <button class="btn text-display">5</button>
+          <button class="btn text-display">6</button>
+          <button class="btn text-display op">+</button>
+          <button class="btn text-display">1</button>
+          <button class="btn text-display">2</button>
+          <button class="btn text-display">3</button>
+          <button class="btn text-display op">-</button>
+          <button class="btn text-display op">.</button>
+          <button class="btn text-display">0</button>
+          <button class="btn text-display op">/</button>
+          <button class="btn text-display op">*</button>
+          <button class="btn reset unique">RESET</button>
+          <button class="btn equal unique">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
